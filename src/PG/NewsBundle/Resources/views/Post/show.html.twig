@@ -1,7 +1,7 @@
 {% extends '::base.html.twig' %}
 
 {% block body -%}
-    <h1>Post</h1>
+    <h1>Article</h1>
 
     <table class="record_properties">
         <tbody>
@@ -10,11 +10,11 @@
                 <td>{{ entity.id }}</td>
             </tr>
             <tr>
-                <th>Title</th>
+                <th>Titre</th>
                 <td>{{ entity.title }}</td>
             </tr>
             <tr>
-                <th>Content</th>
+                <th>Contenu</th>
                 <td>{{ entity.content }}</td>
             </tr>
             <tr>
@@ -23,16 +23,18 @@
             </tr>
         </tbody>
     </table>
+    <img src="/TPSiteEntreprise/web/{{ entity.path }}" alt=""/>
 
+    {{ entity.path }}
         <ul class="record_actions">
     <li>
         <a href="{{ path('post') }}">
-            Back to the list
+            Retour
         </a>
     </li>
     <li>
         <a href="{{ path('post_edit', { 'id': entity.id }) }}">
-            Edit
+            Editer
         </a>
     </li>
     <li>{{ form(delete_form) }}</li>

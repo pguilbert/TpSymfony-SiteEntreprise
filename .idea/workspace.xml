@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="045895d1-fe79-4ecc-becd-f7b25f694d5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/Static/success.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/ContactBundle/Entity/ContactEntry.php" afterPath="$PROJECT_DIR$/src/PG/ContactBundle/Entity/ContactEntry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/ContactBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/PG/ContactBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/ContactBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/PG/ContactBundle/Resources/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PG/NewsBundle/Form/Extension/ImageTypeExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PG/NewsBundle/Entity/EventListener/PostListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Form/fields.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/NewsBundle/Entity/Post.php" afterPath="$PROJECT_DIR$/src/PG/NewsBundle/Entity/Post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/NewsBundle/Form/PostType.php" afterPath="$PROJECT_DIR$/src/PG/NewsBundle/Form/PostType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/edit.html.twig" afterPath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/index.html.twig" afterPath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/new.html.twig" afterPath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/show.html.twig" afterPath="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/show.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TPSiteEntreprise.iws" />
@@ -32,28 +36,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routing.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/routing.yml">
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="197" selection-end="197" vertical-scroll-proportion="0.16478191" vertical-offset="0" max-vertical-offset="619">
+            <state line="3" column="29" selection-start="81" selection-end="81" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="833">
+              <folding>
+                <element signature="e#424#433#0" expanded="false" />
+                <element signature="e#740#749#0" expanded="false" />
+                <element signature="e#879#888#0" expanded="false" />
+                <element signature="e#1121#1129#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Controller/PostController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="34" selection-start="990" selection-end="990" vertical-scroll-proportion="-15.038462" vertical-offset="272" max-vertical-offset="3825">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/routing/post.yml">
+      <file leaf-file-name="Post.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Entity/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="156" column="68" selection-start="2553" selection-end="2553" vertical-scroll-proportion="-2.4705882" vertical-offset="2526" max-vertical-offset="3502">
+              <folding>
+                <marker date="1403086219329" expanded="true" signature="2226:2261" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="15" selection-start="629" selection-end="629" vertical-scroll-proportion="0.7132867" vertical-offset="17" max-vertical-offset="816">
+              <folding>
+                <marker date="1403086543785" expanded="true" signature="744:824" placeholder="..." />
+                <marker date="1403086543785" expanded="true" signature="782:814" placeholder="..." />
+                <marker date="1403086543785" expanded="true" signature="833:939" placeholder="..." />
+                <marker date="1403086543785" expanded="true" signature="897:929" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageTypeExtension.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Form/Extension/ImageTypeExtension.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="53" selection-start="944" selection-end="944" vertical-scroll-proportion="-15.692307" vertical-offset="102" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <file leaf-file-name="services.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/services.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="10" column="32" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fields.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Form/fields.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="14" selection-start="268" selection-end="268" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostType.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Form/PostType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="30" selection-start="510" selection-end="510" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -76,13 +137,24 @@
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Form/ContactEntryType.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Entity/ContactEntry.php" />
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/index.html.twig" />
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/routing/post.yml" />
         <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Entity/EventListener/PostListener.php" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Form/fields.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Form/PostType.php" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Form/Extension/ImageTypeExtension.php" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Controller/PostController.php" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Entity/Post.php" />
+        <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/show.html.twig" />
       </list>
     </option>
   </component>
@@ -199,6 +271,104 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Post" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -286,7 +456,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="Form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,7 +478,115 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ContactBundle" />
+              <option name="myItemId" value="NewsBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventListener" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,6 +671,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -404,7 +683,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -434,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.85785955" vertical-offset="660" max-vertical-offset="1275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="66" selection-start="716" selection-end="716" vertical-scroll-proportion="0.4755245" vertical-offset="0" max-vertical-offset="680">
@@ -451,13 +722,6 @@
     <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="619">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Form/ContactEntryType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="434" selection-end="434" vertical-scroll-proportion="-8.5" vertical-offset="17" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
@@ -490,24 +754,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+        <state line="10" column="12" selection-start="197" selection-end="197" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357">
+          <folding>
+            <element signature="e#12#28#0" expanded="false" />
+            <element signature="e#173#177#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="102" selection-end="102" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
+          <folding>
+            <element signature="e#12#28#0" expanded="false" />
+            <element signature="e#182#186#0" expanded="false" />
+            <marker date="1403079155893" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1403079155893" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1403079155893" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Entity/EventListener/PostListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="5" selection-start="325" selection-end="325" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Form/ContactEntryType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="21" selection-start="809" selection-end="809" vertical-scroll-proportion="0.46503496" vertical-offset="227" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="49" selection-start="904" selection-end="904" vertical-scroll-proportion="0.909699" vertical-offset="0" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/routing/post.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="30" column="0" selection-start="761" selection-end="761" vertical-scroll-proportion="0.8528428" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.22742476" vertical-offset="0" max-vertical-offset="598">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="197" selection-end="197" vertical-scroll-proportion="0.16478191" vertical-offset="0" max-vertical-offset="619">
+        <state line="7" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.19899665" vertical-offset="0" max-vertical-offset="598">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Form/Extension/ImageTypeExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="53" selection-start="944" selection-end="944" vertical-scroll-proportion="-15.692307" vertical-offset="102" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Form/fields.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="268" selection-end="268" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Form/PostType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="30" selection-start="510" selection-end="510" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="68" selection-start="2553" selection-end="2553" vertical-scroll-proportion="-2.4705882" vertical-offset="2526" max-vertical-offset="3502">
+          <folding>
+            <marker date="1403086219329" expanded="true" signature="2226:2261" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="81" selection-end="81" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="833">
+          <folding>
+            <element signature="e#424#433#0" expanded="false" />
+            <element signature="e#740#749#0" expanded="false" />
+            <element signature="e#879#888#0" expanded="false" />
+            <element signature="e#1121#1129#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Controller/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="34" selection-start="990" selection-end="990" vertical-scroll-proportion="-15.038462" vertical-offset="272" max-vertical-offset="3825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="15" selection-start="629" selection-end="629" vertical-scroll-proportion="0.7132867" vertical-offset="17" max-vertical-offset="816">
+          <folding>
+            <marker date="1403086543785" expanded="true" signature="744:824" placeholder="..." />
+            <marker date="1403086543785" expanded="true" signature="782:814" placeholder="..." />
+            <marker date="1403086543785" expanded="true" signature="833:939" placeholder="..." />
+            <marker date="1403086543785" expanded="true" signature="897:929" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
