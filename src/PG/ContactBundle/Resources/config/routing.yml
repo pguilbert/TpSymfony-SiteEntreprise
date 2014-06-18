@@ -1,3 +1,8 @@
 pg_contact_homepage:
     pattern:  /contact
     defaults: { _controller: PGContactBundle:Default:index }
+pg_contact_success:
+    pattern: /contact-success
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: 'PGContactBundle:Static:success.html.twig'

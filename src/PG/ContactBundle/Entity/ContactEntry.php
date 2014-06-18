@@ -3,6 +3,7 @@
 namespace PG\ContactBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * ContactEntry
@@ -42,10 +43,12 @@ class ContactEntry
      */
     private $surname;
 
+
     /**
      * @var string
      *
      * @ORM\Column(name="email", type="string", length=255)
+     * @Assert\Email
      */
     private $email;
 
