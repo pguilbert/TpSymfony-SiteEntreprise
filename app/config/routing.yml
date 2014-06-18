@@ -1,3 +1,7 @@
+pg_news:
+    resource: "@PGNewsBundle/Resources/config/routing.yml"
+    prefix:   /
+
 pg_contact:
     resource: "@PGContactBundle/Resources/config/routing.yml"
     prefix:   /

@@ -1,0 +1,7 @@
+pg_news_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: PGNewsBundle:Default:index }
+
+pg_news:
+    resource: "@PGNewsBundle/Resources/config/routing/post.yml"
+    prefix:   /post
