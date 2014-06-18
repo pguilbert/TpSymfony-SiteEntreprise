@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="045895d1-fe79-4ecc-becd-f7b25f694d5d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/ContactBundle/Form/ContactEntryType.php" afterPath="$PROJECT_DIR$/src/PG/ContactBundle/Form/ContactEntryType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/ContactBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/PG/ContactBundle/Controller/DefaultController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/Default/index.html.twig" />
     </list>
     <ignored path="TPSiteEntreprise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,10 +52,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactEntryType.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="131" selection-start="1039" selection-end="1039" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/Default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="21" selection-start="50" selection-end="50" vertical-scroll-proportion="0.1486014" vertical-offset="0" max-vertical-offset="572">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactEntryType.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Form/ContactEntryType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="556" selection-end="556" vertical-scroll-proportion="0.18356644" vertical-offset="201" max-vertical-offset="799">
+            <state line="20" column="39" selection-start="556" selection-end="556" vertical-scroll-proportion="-6.0" vertical-offset="150" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -87,25 +107,7 @@
       <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="59" selection-start="888" selection-end="888" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageTypeExtension.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Form/Extension/ImageTypeExtension.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="53" selection-start="944" selection-end="944" vertical-scroll-proportion="-15.692307" vertical-offset="102" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/services.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="21" column="61" selection-start="950" selection-end="950" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -143,11 +145,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Form/Type/ContactType.php" />
-        <option value="$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Entity/ContactEntry.php" />
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/index.html.twig" />
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/PG/ContactBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/routing/post.yml" />
         <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/new.html.twig" />
@@ -162,8 +162,10 @@
         <option value="$PROJECT_DIR$/src/PG/NewsBundle/Controller/PostController.php" />
         <option value="$PROJECT_DIR$/src/PG/NewsBundle/Entity/Post.php" />
         <option value="$PROJECT_DIR$/src/PG/NewsBundle/Resources/views/Post/show.html.twig" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/PG/ContactBundle/Form/ContactEntryType.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/PG/ContactBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/Default/index.html.twig" />
       </list>
     </option>
   </component>
@@ -625,7 +627,123 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TPSiteEntreprise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -744,13 +862,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="22" selection-end="22" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="619">
@@ -775,13 +886,6 @@
     <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="18" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="855" selection-end="855" vertical-scroll-proportion="0.68802696" vertical-offset="34" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
@@ -905,9 +1009,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Form/ContactEntryType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="39" selection-start="556" selection-end="556" vertical-scroll-proportion="-6.0" vertical-offset="150" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="59" selection-start="888" selection-end="888" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="714">
+        <state line="21" column="61" selection-start="950" selection-end="950" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
@@ -919,9 +1030,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Form/ContactEntryType.php">
+    <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="556" selection-end="556" vertical-scroll-proportion="0.18356644" vertical-offset="201" max-vertical-offset="799">
+        <state line="29" column="131" selection-start="1039" selection-end="1039" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PG/ContactBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="50" selection-end="50" vertical-scroll-proportion="0.1486014" vertical-offset="0" max-vertical-offset="572">
           <folding />
         </state>
       </provider>

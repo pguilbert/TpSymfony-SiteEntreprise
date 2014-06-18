@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new PG\ContactBundle\PGContactBundle(),
             new PG\NewsBundle\PGNewsBundle(),
             new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
+            new Ivory\GoogleMapBundle\IvoryGoogleMapBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

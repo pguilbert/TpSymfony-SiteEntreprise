@@ -12,6 +12,7 @@ class DefaultController extends Controller
 {
     public function indexAction(Request $request)
     {
+        $map = $this->get('ivory_google_map.map');
         $contact = new ContactEntry();
         $contact->setDate(new \DateTime("now"));
 
@@ -26,6 +27,6 @@ class DefaultController extends Controller
             return new RedirectResponse($this->generateUrl('pg_contact_success'));
         }
 
-        return $this->render('PGContactBundle:Default:index.html.twig', array('form_contact' => $form->createView()));
+        return $this->render('PGContactBundle:Default:index.html.twig', array('form_contact' => $form->createView() , 'map' => $map));
     }
 }
