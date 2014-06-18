@@ -18,7 +18,7 @@ class ContactEntryType extends AbstractType
             ->add('name')
             ->add('surname')
             ->add('email')
-            ->add('content')
+            ->add('content' , 'ckeditor')
             ->add('Submit', 'submit')
         ;
     }
