@@ -1,0 +1,4 @@
+pg_contact:
+    resource: "@PGContactBundle/Resources/config/routing.yml"
+    prefix:   /
+

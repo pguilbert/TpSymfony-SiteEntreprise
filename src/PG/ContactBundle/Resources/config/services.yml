@@ -1,0 +1,7 @@
+parameters:
+#    pg_contact.example.class: PG\ContactBundle\Example
+
+services:
+#    pg_contact.example:
+#        class: %pg_contact.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
